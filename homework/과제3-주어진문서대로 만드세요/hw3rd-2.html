@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*6*6 콜랩싱/
+        thead:위 실선/아래 실선을 순서상 tbody 밑에 씀
+        tbody:위 점선, 아래 실선
+        '>'경로지정:hover{색상}
+        thead 안됨?*/
+            table{
+                border-collapse: collapse;
+                text-align: center;
+                border-bottom: 1px solid #000000;        
+            }
+            
+            thead{
+                border-top: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+                background-color: #d6d6d6;
+            }
+
+
+            tbody>tr{
+                border-top: 1px dashed #000000;                
+            }
+
+
+            tbody>tr:hover{background-color: #ffff00;}
+        
+    </style>
+</head>
+<body>
+    <h1>mysite</h1>
+    <!--
+         -->
+    <table>
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>글쓴이</th>
+                <th>조회수</th>
+                <th>작성일</th>
+                <th>관리</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>123</td>
+                <td>게시판글</td>
+                <td>정우성</td>
+                <td>1232</td>
+                <td>ddd</td>
+                <td>삭제</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>게시판글</td>
+                <td>정우성</td>
+                <td>1232</td>
+                <td>ddd</td>
+                <td>삭제</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>게시판글</td>
+                <td>정우성</td>
+                <td>1232</td>
+                <td>ddd</td>
+                <td>삭제</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

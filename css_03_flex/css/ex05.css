@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.container{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.container.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* 표기에 대하여-앞에 .의 추가는 속해있다고
+표시할 뿐, 쓸때는 각자 클래스명을 직접 넣어야 함 */
+
+.container.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item1{
+    border: 3px solid #f00;
+    align-self: stretch;
+}
+
+
+.item2{
+    border: 3px solid #00f;
+    align-self: flex-start;
+}
+
+.item3{
+    border: 3px solid #0f0;
+    align-self: flex-end;
+}

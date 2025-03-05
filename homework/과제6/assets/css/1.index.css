@@ -1,0 +1,17 @@
+#content #profile{
+    float: left;
+    width:250px;
+    
+    margin-right: 20px;
+}
+
+#content #greeting-box{
+    float: left;
+    width: 600px;
+}
+
+#content #greeting-box .greeting{
+    font-weight: bold;
+    font-size: 20px;    
+
+}

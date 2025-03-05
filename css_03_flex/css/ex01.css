@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.container{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.container.row{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start;
+    start 기본임 */
+    /* justify-content: flex-end;
+    우측부터 */
+    /* justify-content: center;
+    중간배치 */
+    /* justify-content: space-between;
+    맨끝에 배치되고 중간에 */
+    /* justify-content: space-around;
+    일정 여유공간을 나눠서 배치? */
+    justify-content: space-evenly;
+    /* 여유 공간을 같게 배치 */
+    
+    
+
+}
+
+.container.column{
+    display: flex;
+    flex-direction: column;
+    /*colmn으로 적용해도 row와 같다*/
+    
+}
+
+.item1{
+    border: 3px solid #f00;
+}
+
+.item2{
+    border: 3px solid #00f;
+}
+
+.item3{
+    border: 3px solid #0f0;
+}
+
+

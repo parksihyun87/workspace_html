@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.container{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.container.row{
+    display: flex;
+    flex-direction: row;
+    justify content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container.column{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.item1{
+    border: 3px solid #f00;
+    order: 2;
+}
+
+.item2{
+    border: 3px solid #00f;
+    order: 3;
+}
+
+.item3{
+    border: 3px solid #0f0;
+    order: 1;
+}

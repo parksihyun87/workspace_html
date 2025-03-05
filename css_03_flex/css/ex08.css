@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.container{
+    /* width: 500px; */
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.container.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+}
+
+/* .conatiner.column{
+    display: flex;
+    flex-direction: column;
+} */
+
+.item1{
+    border: 3px solid #f00;
+    flex-basis: 290px;
+    /* flex-shrink: 1;
+    flex-grow: 1; */
+}
+
+.item2{
+    border: 3px solid #00f;
+    flex-basis: 290px;
+    /* flex-shrink: 1;
+    flex-grow: 1; */
+}
+
+.item3{
+    border: 3px solid #0f0;
+    flex-basis: 290px;
+    /* flex-shrink: 1;
+    flex-grow: 1; */
+    /* wrap으로 줄이면 떨어진다는데..흠 */
+    flex-wrap: wrap;
+}

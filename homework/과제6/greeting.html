@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../과제6/assets/css/0.reset.css">
+    <link rel="stylesheet" href="../과제6/assets/css/0.mysite.css">
+    <link rel="stylesheet" href="./assets/css/greeting.css">
+</head>
+
+<body>
+    <div id="wrap">
+        
+        <header class="clearfix">
+                <h1>Mysite</h1>
+                    
+                <ul class="clearfix">
+                    <li>로그인</li>
+                    <li>회원가입</li>
+                </ul>
+        </header>
+        
+        <nav>
+            <ul class="clearfix">
+                <li>입사지원서</li>
+                <li>게시판</li>
+                <li>갤러리</li>
+                <li>방명록</li>
+            </ul>
+        </nav>
+        
+        <div id="content2" class="clearfix">
+            <aside> 
+                <h2>방명록</h2>
+                
+                <ul>
+                    <li>일반방명록</li>
+                    <li>ajax방명록</li>
+                </ul>   
+            </aside>
+
+            <main>                
+                <div class="clearfix">
+                    <h3> 일반방명록 </h3>
+                    <ol>
+                        <li>홈</li>
+                        <li>방명록</li>
+                        <li>일반방명록</li>
+                    </ol>
+                </div>
+                <!--1구역 게시판 타이틀 여기까지는 고정-->
+                
+                <div>
+                    <div>
+                        <div>
+                            <table border="1px">
+                                <colgroup>
+                                    <col style="width: 100px;">
+                                    <col style="width: 300px;">
+                                    <col style="width: 100px;">
+                                    <col style="width: 300px;">
+                                </colgroup>
+                                
+                                <tr>
+                                    <td><label for="1-1" class="pad-left" >이름</label></td>                                    
+                                    <td class="txt-adj2"><input id="1-1" class="txt-adj" type="text"></td>                                    
+                                    <td><label for="1-2" class="pad-left">패스워드</label></td>                                    
+                                    <td class="txt-adj2"><input id="1-2" class="txt-adj" type="text"></td>                                    
+                                </tr>
+
+                                <tr> <!--colspan 4-->
+                                    <td colspan="4">
+                                        <textarea>
+                                        </textarea>
+                                    </td>                                    
+                                    <!-- <td></td>                                    
+                                    <td></td>                                    
+                                    <td></td>                                     -->
+                                </tr>
+
+                                <tr>
+                                    <td class="btn-pad" colspan="4" ><button class="btn-spc" type="submit">등록</button></td>                                    
+                                    <!-- <td></td>                                    
+                                    <td></td>                                    
+                                    <td></td>                                     -->
+                                </tr>
+                            </table>
+                            <!-- table: 3*4 -->
+                        </div>
+                        <!-- 글 등록1 -->
+                        
+                        <div>
+                            <div>
+                                <table border="1px">
+                                    <colgroup>
+                                        <col style="width: 100px;">
+                                        <col style="width: 300px;">
+                                        <col style="width: 300px;">
+                                        <col style="width: 100px;">
+                                    </colgroup>
+                                    
+                                    <tr>
+                                        <td class="txt-adj3">1234555</td>
+                                        <td class="txt-adj3">이정재</td>
+                                        <td class="txt-adj3">2020-03-03 12:12:12</td>
+                                        <td class="txt-adj3">[삭제]</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="txt-adj3" colspan="4">방명록글</td>
+                                        <!-- <td></td>
+                                        <td></td>
+                                        <td></td> -->
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div>
+                                <table border="1px">
+                                    <colgroup>
+                                        <col style="width: 100px;">
+                                        <col style="width: 300px;">
+                                        <col style="width: 300px;">
+                                        <col style="width: 100px;">
+                                    </colgroup>
+                                    
+                                    <tr>
+                                        <td class="txt-adj3">1234555</td>
+                                        <td class="txt-adj3">이정재</td>
+                                        <td class="txt-adj3">2020-03-03 12:12:12</td>
+                                        <td class="txt-adj3">[삭제]</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="txt-adj3" colspan="4">방명록글</td>
+                                        <!-- <td></td>
+                                        <td></td>
+                                        <td></td> -->
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!--두번째 표틀 -->
+
+
+                    </div>
+                    <!-- 글 등록 공간-->
+
+                  
+                    <div>
+
+                    </div>
+                    <!-- 글 저장 공간-->
+                                      
+                </div>
+                <!--일반방명록 전체 구역-->
+
+            </main> 
+           
+        </div>    
+        
+        <footer>
+            <p>Copyright ⓒ2025 박시현. All right reserved</p>
+        </footer>
+    </div>    
+    
+</body>
+
+</html>

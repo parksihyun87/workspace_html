@@ -1,0 +1,112 @@
+    @charset "utf-8"
+    body, div, ul, ol, li, dl, dt,
+        h1, h2, h3, h4, h5, h6, 
+        form, fieldset, legend, input, select, textarea, button 
+        table, th, td, tr, p{
+            margin: 0px;
+            padding: 0px;
+    }
+        
+    ol>li{
+        list-style-type: none;
+        margin:0px;
+    }
+
+    input, textarea, select{
+        font-family: inherit;
+        font-size: inherit;
+    }
+
+    /* clearfix */
+    .clearfix:before, .clearfix:after {
+        display: block; content: ""; line-height: 0;
+    }
+    .clearfix:after {clear: both;}
+
+    
+    /*----------------------------------------------------------------------------------
+    근간에 적용한 속성(바디, 전체 랩 기본 색,글꼴,크기)*/
+
+    body{
+        background-color: #808080;
+        font-family:"맑은 고딕";
+        font-size:12px;
+    }    
+    
+    .wrap{
+        padding: 10px;
+        width: 700px;
+        background-color: #fff;        
+    }
+
+    /*너무 뻔한 body나 wrap은 경로 표시에서 빼 줌*/
+    
+    /*개별 div 포장재-폼 그룹(밑으로 10px씩 간격)*/
+
+    .form-group{
+        margin:0px 0px 10px 0px;
+    }
+
+    /*div 여하 개별 집합 속성*/
+
+    .form-group #sel-board{
+        width: 200px;
+    }
+    
+    .form-group #txt-title{        
+        width: 550px;
+    }
+
+    .form-group #txt-password{
+        width: 200px;
+    }
+     
+    /*다시 확인*/
+    .form-group #fil{
+        display:inline-block;
+        width: 80px;
+    }
+
+    /*제목격인 곳에 붙이는 클래스(너비 맞춤)*/
+    .form-text{
+        display: inline-block;
+        width: 80px;
+        
+    }
+
+    /*라디오, 체크박스 등 인풋 기능 모음*/
+
+    input[type="radio"]{
+        margin: 0px 10px 0px 10px;        
+    }
+
+    
+    input[type="checkbox"]{
+        margin: 0px 10px 0px 10px;        
+    }
+
+    #txt-content{
+
+        width: 640px;
+        height: 80px;
+    }
+
+    ol>li{
+        color:#000;
+        float:left;
+        margin-right: 10px;
+    }
+
+    /*버튼 관련 그룹*/
+
+    .btn-group{        
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-top: 2px solid #000;
+        text-align: center;
+    }
+    
+    .btn-group button{
+        width:70px;
+        height:30px;
+    }

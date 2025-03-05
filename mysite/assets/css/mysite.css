@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+
+#wrap{
+    width: 1000px;
+    margin: 0px auto;    
+}
+
+#wrap header{
+    
+    padding: 10px 0px 10px 0px;
+    border-bottom: 2px solid black;
+}
+
+#wrap nav{
+    border-bottom: 2px solid black;
+}
+/*1단*/
+#wrap #content{
+    background-color: #0f0;
+    padding: 20px;
+}
+
+/*2단*/
+#wrap #content2{
+    padding: 20px 0px 20px 0px;
+}
+
+#wrap #content2 aside{
+    margin-right: 10px;
+    width: 180px;
+    float: left;
+    
+}
+
+#wrap #content2 main{
+    width:810px;
+    float: left;    
+}
+
+#wrap footer{
+    background-color: purple;
+    padding: 10px 0px 10px 0px;
+    background-color: #CFC8D7;
+}
+/* 레이아웃 관련하여 작성 */
+
+
+header h1{
+    font-size: 35px;
+    color: #79b30b;
+    font-weight: bolder;
+    float: left;
+}
+/* header(중략) h1 이런식으로 이름 붙임 */
+
+header ul{
+    float: right;
+    margin-top: 14px;
+}
+/* 전체 띄워서 오른쪽으로 */
+
+header ul>li{
+    float: left;
+    padding: 0px 5px 0px 5px;
+    width: 80px;
+    border-radius: 3px;    
+    border: 1px solid #c0c0c0;
+    margin-left: 10px;
+    text-align: center;
+}
+/* 헤더만 관련하여 작성 */
+
+nav ul{
+    padding: 10px 0px 10px 0px;
+}
+
+nav ul>li{
+    float: left;
+    width: 250px;
+    border: 0px solid #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 네비만 관련하여 작성 */
+
+footer p{
+    text-align: center;
+}
+
+/* 푸터만 관련하여 작성 */
+
+
+#content2 aside h2{
+    background-color: #dddddd;
+    font-size: 20px;
+    font-weight: bold;   
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+#content2 aside ul>li{
+    padding: 8px 10px 8px 10px;
+    background-color: #fff;     
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    font-size: 18px;
+}
+
+/* aside 페이지*/
+
+
+
+/* index 페이지*/
+
+#content2 main .pathbox{
+    padding: 20px 0px 0px 0px;
+}
+    
+#content2 main h3{
+    float: left;
+}
+ 
+#content2 main ol{
+    float: right;
+}
+
+#content2 main ol>li{
+    float: left;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+#content2 main ol>li:not(:last-child)::after{
+    content:">";
+    padding: 0px 0px 0px 10px;
+}
+
+/* main 페이지 */

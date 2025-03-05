@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+        .clearfix:after {clear: both;}
+        
+        .box-gray{            
+            width: 700px;            
+            padding: 5px;
+            background-color: #bfbfbf;            
+            /*작동은 하지만 방향성이 부족함
+            overflow:hidden;*/
+            
+
+        }
+
+        .box-red{
+            
+            background-color: #f00;
+            
+                            
+        }
+        
+        .box-blue{
+            
+            background-color: #00f;
+            float: left;
+
+        }
+       
+        .box-green{
+            
+            background-color: #0f0;
+            float: left;
+            
+                       
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="box-gray clearfix">
+        
+    
+
+        <div class="box-blue">
+            파란박스
+        </div>
+
+
+        <div class="box-green">
+            초록박스
+        </div>
+
+    </div>
+
+
+    <div class="box-red">
+        빨간박스
+    </div>
+
+</body>
+</html>

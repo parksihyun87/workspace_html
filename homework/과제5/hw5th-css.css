@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body, div, ul, ol, li, dl, dt,
+h1, h2, h3, h4, h5, h6, 
+form, fieldset, legend, input, select, button 
+table, th, td, tr, textarea,p{
+    margin: 0; padding: 0;
+}
+
+/*----------------------------------------------------------------------*/
+
+
+body{
+    background-color: #808080;
+    font-family: "맑은 고딕";
+    font-size: 12px;
+}
+
+h1{    
+    font-size: 18px;
+    font-weight: "bold";
+}
+
+input, select, textarea{
+    font-family: "맑은 고딕";
+    font-size: 15px;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+}
+
+
+label{
+    font-family: "맑은 고딕";
+    font-size: 15px;
+}
+
+/*----전체 개별 요소들---*/
+
+.wrap{
+    width: 600px;
+    background-color: #fff;
+}
+
+.title{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.btn{
+    width: 120px;
+    padding: 10px 0px; 
+}
+
+.btn-group{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.form-group{    
+    padding: 10px 0px;
+    border-bottom: 1px solid #808080;
+}
+
+#inter{
+    margin: 5px 0px 0px 125px;      
+}
+
+#txt-address{
+    width: 400px;
+}

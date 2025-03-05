@@ -1,0 +1,26 @@
+main #board-box{
+    width: 600px;
+}
+
+main .wrap-adj{
+   margin: 5px 0px;
+}
+
+
+tbody td:not(:nth-child(2)){
+    text-align: center;
+    }
+    
+table th,tr,td{
+    border: 1px solid black;
+}
+   
+.btn-right{
+    text-align: right;
+}
+
+.btn-padding{
+    padding: 10px 0px 0px 0px;
+}
+
+

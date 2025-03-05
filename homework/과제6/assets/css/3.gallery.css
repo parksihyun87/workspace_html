@@ -1,0 +1,26 @@
+#gallery-box{
+    width: 600px;
+}
+
+main .wrap-adj{
+    margin: 5px 0px;
+ }
+
+.btn-right{
+    text-align: right;
+}
+.btn-padding{
+    padding: 5px 0px 10px 0px;
+}
+
+img{
+    width: 186px;
+    height: 200px;
+    padding: 5px;
+}
+
+.inl-gal{
+    display: inline-block;
+    border: 1px solid #000;
+    text-align: center;
+}

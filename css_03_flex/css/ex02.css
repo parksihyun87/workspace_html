@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.container{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.container.row{
+    display: flex;
+    flex-direction: row;
+    /* 주축 중요 */
+    justify-content: flex-start;
+    /* justify는 좌우 공간정렬 */
+    /* align-items는 꼬챙이로 어떻게 세로로 꾈 건지 */
+    
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: baseline; */
+    /* align-items: stretch; */
+
+    
+}
+/* row의 표시가 실제 배열 되는 모양 */
+/* align-items는 보조축에서
+컨텐츠 크기만큼만 높이 가져감-start:기본 */
+/* end는 밑에다가 맞춤 */
+/* center는 가운데 라인의 폰트 가운데로 정렬-
+주축으로 꼬치처럼 됨 */
+/* baseline은 제일 큰것의 아랫줄로 정렬 */
+/* stretch는 컨테이너를 늘려 꽉채움 */
+
+.container.column{
+    display: flex;
+    flex-direction: column;
+    /*colmn으로 적용해도 row와 같다*/
+    /* justify-content: flex-start; */
+   
+    /* align-items: center; */
+    /* align-items: stretch; */
+    align-items: baseline;
+    
+    
+}
+
+.item1{
+    border: 3px solid #f00;
+    font-size: 20px;
+}
+
+.item2{
+    border: 3px solid #00f;
+    font-size: 20px;
+}
+
+.item3{
+    border: 3px solid #0f0;
+    font-size: 25px;
+}
+
+

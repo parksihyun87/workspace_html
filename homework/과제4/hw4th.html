@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body, ol{
+        margin: 0px;
+        padding: 0px;
+       }
+       
+       body>ol>li{
+        list-style-type: none;
+        float:left;        
+        margin:0px;
+        
+       } 
+       /*
+       body>ol>li::after{
+        content:">";
+       }
+       */
+       body>ol>li:not(:last-child)::after{
+        content:">"
+       }
+       /*강의안에서 자식 선택법중 맨 마지막; 한자식만
+       제외하고 모두 적용하는 방식으로 적용. 마지막만
+       처음에 꺾쇠 제외*/
+       
+    </style>
+</head>
+<body>
+    <ol>
+        <li>홈</li>
+        <li>게시판</li>
+        <li>일반게시판</li>
+        <li>리스트</li>
+    </ol>
+</body>
+</html>
