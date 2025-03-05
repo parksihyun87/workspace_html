@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* layout */
+#wrap{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1000px;
+    padding: 10px 0;
+}
+
+#wrap header{
+    padding: 10px 0;
+    border-bottom: 2px solid #c8c8c8;
+}
+
+#wrap nav{
+    border-bottom: 2px solid #c8c8c8;
+    padding: 14px 0;
+}
+#wrap #content{
+    padding: 40px 20px;
+}
+#wrap #content2{
+    padding: 20px 0;
+}
+#wrap #content2 aside{
+    margin-right: 10px;
+    width: 180px;
+    float: left;
+}
+#wrap #content2 main{
+    width: 810px;
+    float: left;
+}
+#wrap footer{
+    background-color: #dddddd;
+    padding: 15px 0;
+}
+/* /layout */
+
+/* header */
+header h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #79b30b;
+    float: left;
+}
+
+header ul{
+    float: right;
+    margin-top: 18px;
+}
+
+header ul>a>li{
+    float: left;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    margin-left: 6px;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+/* /header */
+
+/* nav */
+nav ul>a>li{
+    float: left;
+    text-align: center;
+    width: 250px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* /nav */
+
+/* content2 aside*/
+#content2 aside h2{
+    background-color: #dddddd;
+    padding: 18px 0;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#content2 aside ul li{
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 7px 7px;
+    border: 1px solid #c0c0c0;
+}
+
+/* /content2 aside*/
+
+/* content2 main*/
+#content2 main .path-box{
+    border-bottom: 1px solid #c0c0c0;
+    padding: 20px 0px 5px 0px;
+}
+#content2 main .path-box h3{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+#content2 main .path-box ol{
+    float: right;
+    margin-top: 10px;
+}
+#content2 main .path-box ol li{
+    float: left;
+    font-size: 12px;
+}
+#content2 main .path-box ol li:not(:last-child)::after{
+    content: ">";
+}
+/* /content2 main*/
+
+/* gallery */
+div#upload-img{
+    margin: 22px 0;
+}
+div#upload-img label{
+    float: right;
+    background-color: #dddddd;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 7px;
+}
+#gallery{
+    box-sizing: border-box;
+    width: 810px;
+}
+#gallery ul{
+    float: left;
+    border: 1px solid #c0c0c0;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+#gallery ul:not(:nth-child(4n)){
+    margin-right: 5px;
+}
+#gallery ul li{
+    box-sizing: border-box;
+    padding: 0px 5px 5px 5px;
+}
+#gallery ul li img{
+    width: 187px;
+}
+/* /gallery */
+
+/* footer */
+footer p{
+    text-align: center;    
+}
+/* /footer */

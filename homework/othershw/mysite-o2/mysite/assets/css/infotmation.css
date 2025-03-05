@@ -1,0 +1,183 @@
+
+/* <--------전체 요소---------> */
+@charset "UTF-8";
+
+
+/* <-------임시 가이드선-------> */
+/* div{
+    border: 1px solid black;
+} */
+
+
+
+/* <--------wrap---------> */
+#wrap{
+    width: 1000px;
+    margin: 0 auto;
+
+    /* background-color: whitesmoke; */
+}
+
+/* <--------Header---------> */
+#wrap header{
+    padding: 10px 0px 10px 0px;
+}
+
+header>h1{
+    font-size: 35px;
+    color: #79b30b;
+    font-weight: 900;
+    float: left;
+}
+
+header>ul{
+    margin-right: 14px;
+    margin-top: 18px;
+    float: right; /* ul안에 있는 덩어리를 우측으로 보낸다 */
+}
+
+header ul> li{
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    margin-top: 7px;
+    margin-right: 10px;
+    padding: 3px 5px 3px 5px;
+    font-size: 11px;
+    float: left;  /* 우측으로 보내진 ul 덩어리를 좌측으로 띄워 다시 좌로정렬한다 */
+}
+
+/* <--------Nav---------> */
+#wrap nav{
+    border-top: 2px solid #c0c0c0;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+nav> ul{
+    padding: 15px 0 15px 0;
+}
+
+nav  ul> a{
+    float: left;
+    width: 250px;
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* <--main--> */
+#wrap #content2{
+  padding: 20px 0;
+}
+
+#wrap #content2 main{
+  float: left;
+  width: 790px;
+  border-bottom: 2px solid #c0c0c0;
+}
+#content2 main > h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+#content2 main ol{
+  float: right;
+  padding-bottom: 7px;
+}
+
+#content2 main ol > li{
+  float: left;
+  margin-top: 28px;
+
+}
+
+#content2 main ol > li:not(:last-child)::after{
+  content: ">";
+  margin-left: 5px;
+}
+
+
+/* <--aside--> */
+#wrap #content2 aside{
+  float: left;
+  width: 180px;
+  margin-right: 30px;
+}
+
+#content2 aside > h2{
+  background-color: #c0c0c0;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+#content2 aside ul > a> li{
+  border: 2px solid #c0c0c0;
+  margin: 5px 0 5px 0;
+  padding: 7px 0 7px 5px;
+}
+
+/* <--------Footer---------> */
+#wrap footer{
+  padding: 15px 0 15px 0;
+  background-color: #ddd;
+}
+footer p{
+  text-align: center;
+}
+
+/* <-------information---------> */
+form{
+  border: 1px solid black;
+  width: 50%;
+  margin-left: 33%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+form>.info{
+  float: left;
+  text-align: center;
+  padding-left: 100px;
+}
+form>.info>div{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+form>.info-text{
+  float: left;
+  padding-left: 20px;
+  margin: 0 auto;
+  padding-right: 40px;
+}
+form>.info-text>div{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 4px;
+  padding-bottom: 1px;
+}
+
+form>.info-text>div:first-child{
+  font-weight: bold;
+}
+
+form>.info-text>div>input{
+  padding: 2px 0 2px 0;
+}
+
+button{
+  width: 120px;
+  margin-left: 36px;
+  margin-top: 45px;
+  padding: 4px;
+}

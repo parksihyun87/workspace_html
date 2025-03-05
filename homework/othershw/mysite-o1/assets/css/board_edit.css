@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* board edit */
+main>#post-info{
+    padding: 20px 0 0 0;
+}
+
+main>#post-info>div{
+    padding-top: 10px;
+}
+main>#post-info>div>label{
+    display: inline-block;
+    width: 60px;
+}
+main>#post-info>div>#post-title{
+    width: 740px;
+}
+main>#textarea-box{
+    padding-top: 10px;
+}
+main>#textarea-box textarea{
+    width: 810px;
+    height: 450px;
+}
+main>div>#post-btn{
+    float: right;
+    padding: 10px 0;
+}
+main>div>#post-btn>a{
+    background-color: #dddddd;
+    border: 1px solid #a8a8a8;
+    border-radius: 4px;
+    box-shadow: 1px;
+    margin-left: 5px;
+    padding: 4px 24px;
+}
+/* /board edit */

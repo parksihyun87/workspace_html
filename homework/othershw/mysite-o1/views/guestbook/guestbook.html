@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>mysite</title>
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/mysite.css">
+    <link rel="stylesheet" href="../../assets/css/guestbook.css">
+</head>
+<body>
+    <div id="wrap">
+        <!--header-->
+        <header class="clearfix">
+            <h1>Mysite</h1>
+            <ul class="clearfix">
+                <a href="../user/login.html"><li>로그인</li></a>
+                <a href="../user/sign_up.html"><li>회원가입</li></a>
+            </ul>
+        </header>
+        <!--/header-->
+        <!--nav-->
+        <nav>
+            <ul class="clearfix">
+                <a href=""><li>입사지원서</li></a>
+                <a href="../board/borad.html"><li>게시판</li></a>
+                <a href="../gallery/gallery.html"><li>갤러리</li></a>
+                <a href="../guestbook/guestbook.html"><li>방명록</li></a>
+            </ul>
+        </nav>
+        <!--/nav-->
+        <!--content-->
+        <div id="content2" class="clearfix">
+            <aside>
+                <h2>방명록</h2>
+                <ul id="" class="clearfix">
+                    <a href="../guestbook/guestbook.html"><li>일반방명록</li></a>
+                    <a href=""><li>ajax방명록</li></a>
+                </ul>
+            </aside>
+
+            <main>
+                <div class="path-box clearfix">
+                    <h3>일반방명록</h3>
+                    <ol class="clearfix">
+                        <li>홈</li>
+                        <li>방명록</li>
+                        <li>일반방명록</li>
+                    </ol>
+                </div>
+                <div id="guestbook">
+                    <form action="" id="gtb-form">
+                        <table id="gtb-form-table">
+                            <colgroup>
+                                <col style="width: 80px;">
+                                <col style="width: 325px;">
+                                <col style="width: 80px;">
+                                <col style="width: 325px;">
+                            </colgroup>
+                            <tr>
+                                <td><label for="username">이름</label></td>
+                                <td><input type="text" name="u-name" id="username"></td>
+                                <td><label for="userpassword">패스워드</label></td>
+                                <td><input type="password" id="userpassword"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><textarea id="guestbook-txt"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><button type="submit">등록</button></td>
+                            </tr>
+                        </table>
+                    </form>
+                    <table class="gtb-list">
+                        <colgroup>
+                            <col style="width: 100px;">
+                            <col style="width: 305px;">
+                            <col style="width: 305px;">
+                            <col style="width: 100px;">
+                        </colgroup>
+                        <tr>
+                            <td>123455</td>
+                            <td>이정재</td>
+                            <td>2020-03-03 12:12:12</td>
+                            <td><a href="">[삭제]</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">방명록 글입니다. 방명록 글입니다.</td>
+                        </tr>
+                    </table>
+                    <table class="gtb-list">
+                        <colgroup>
+                            <col style="width: 100px;">
+                            <col style="width: 305px;">
+                            <col style="width: 305px;">
+                            <col style="width: 100px;">
+                        </colgroup>
+                        <tr>
+                            <td>123455</td>
+                            <td>이정재</td>
+                            <td>2020-03-03 12:12:12</td>
+                            <td><a href="">[삭제]</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">방명록 글입니다. 방명록 글입니다.</td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+        </div>
+        <!--/content-->
+        <footer>
+            <p>Copyright ⓒ 2025 최현범. All right reserved</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* index */
+#content #img-profile{
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+}
+#content #greeting-box{
+    float: left;
+}
+#content #greeting-box .greeting{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* /index */

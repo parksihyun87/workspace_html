@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>mysite</title>
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/mysite.css">
+    <link rel="stylesheet" href="../../assets/css/user.css">
+</head>
+<body>
+    <div id="wrap">
+        <!--header-->
+        <header class="clearfix">
+            <h1>Mysite</h1>
+            <ul class="clearfix">
+                <a href="../user/login.html"><li>로그인</li></a>
+                <a href="../user/sign_up.html"><li>회원가입</li></a>
+            </ul>
+        </header>
+        <!--/header-->
+        <!--nav-->
+        <nav>
+            <ul class="clearfix">
+                <a href=""><li>입사지원서</li></a>
+                <a href="../board/borad.html"><li>게시판</li></a>
+                <a href="../gallery/gallery.html"><li>갤러리</li></a>
+                <a href="../guestbook/guestbook.html"><li>방명록</li></a>
+            </ul>
+        </nav>
+        <!--/nav-->
+        <!--content-->
+        <div id="content2" class="clearfix">
+            <aside>
+                <h2>회원</h2>
+                <ul id="" class="clearfix">
+                    <a href="../user/edit_info.html"><li>회원정보</li></a>
+                    <a href="../user/login.html"><li>로그인</li></a>
+                    <a href="../user/sign_up.html"><li>회원가입</li></a>
+                </ul>
+            </aside>
+
+            <main>
+                <div class="path-box clearfix">
+                    <h3>회원가입</h3>
+                    <ol class="clearfix">
+                        <li>홈</li>
+                        <li>회원</li>
+                        <li>회원가입</li>
+                    </ol>
+                </div>
+                <div id="user-wrap">
+                    <div id="write-form">
+                        <form>
+                            <div class="form-box">
+                                <span class="form-title"><label for="userid">아이디</label></span>
+                                <input type="text" id="userid" name="user-id" placeholder="아이디를 입력하세요.">
+                                <button type="button" id="checkid-btn">중복체크</button>
+                            </div>
+                            <div class="form-box">
+                                <span class="form-title"><label for="userpassword">비밀번호</label></span>
+                                <input type="password" id="userpassword" name="user-password" placeholder="비밀번호를 입력하세요.">
+                            </div>
+                            <div class="form-box">
+                                <span class="form-title"><label for="username">이름</label></span>
+                                <input type="text" id="username" name="user-name" placeholder="이름을 입력하세요.">
+                            </div>
+                            <div class="form-box">
+                                <span class="form-title">성별</span>
+                                <label for="man">남</label>
+                                <input id="man" type="radio" name="gender">
+                                <label for="woman">여</label>
+                                <input id="woman" type="radio" name="gender">
+                            </div>
+                            <div class="form-box">
+                                <span class="form-title">약관동의</span>
+                                <input id="agree" type="checkbox" name="agree">
+                                <label>서비스 약관에 동의합니다.</label>
+                            </div>
+                            <div id="btn-box">
+                                <button id="user-btn" type="submit">회원가입</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <!--/content-->
+        <footer>
+            <p>Copyright ⓒ 2025 최현범. All right reserved</p>
+        </footer>
+    </div>
+</body>
+</html>

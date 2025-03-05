@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* 
+nav>ul{
+    display: flex;
+} */
+
+body nav .newclass{
+    display: flex;
+}

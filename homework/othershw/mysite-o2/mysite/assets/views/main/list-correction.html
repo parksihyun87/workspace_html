@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> correction</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/correction.css">
+</head>
+<body>
+    <!--컨테이너 시작-->
+    <div id="wrap">
+
+        <!--Header-->
+        <header id="header" class="clearfix">
+            <!--대제목-->
+            <h1><a href="./index.html">MySite</a></h1>
+
+            <!--로그인 회원가입-->
+            <ul>
+                <li><a href="./login.html">로그인</a></li>
+                <li><a href="./account.html">회원가입</a></li>
+            </ul>
+        </header>
+
+        <!--nav-->
+        <nav id="nav">
+            <ul  class="clearfix">
+                <a href=""><li>입사지원서</li></a>
+                <a href="./list.html"><li>게시판</li></a>
+                <a href="./gallery.html"><li>갤러리</li></a>
+                <a href="./guestbook.html"><li>방명록</li></a>
+            </ul>
+        </nav>
+        <!--content-->
+        <div id="content2" class="clearfix">
+            <!--aside-->
+            <aside>
+                <!--h2정보-->
+                <h2>게시판</h2>
+                
+                <ul>
+                    <a href="./list.html"><li>일반게시판</li></a>
+                    <a href="#"><li>댓글게시판</li></a>
+                </ul>
+            </aside>
+            <!--main-->
+            <main class="clearfix">
+                <!--h3 정보-->
+                <h3>일반게시판</h3>
+
+                <ol>
+                <li>홈</li>
+                <li>게시판</li>
+                <li>일반게시판</li>
+                </ol>
+            </main>
+            <!--작성 데이터-->
+            <div class="data-1">
+                <div>작성자</div>
+                <div>김준홍</div>
+                <div>작성일</div>
+                <div><label for="textname">제목</label></div>
+            </div>
+
+                
+            <div class="data-2">
+                <div class="data-3">김준홍</div>
+                <div class="data-3">635</div>
+                <div class="data-3">2025-03-05</div>
+                <div>
+                    <input type="text" id="textname" 
+                    readonly 
+                    value="여기에는 글제목이 출력됩니다.">
+                </div>
+            </div>
+            <!--수정 본문-->
+            <form>
+                <div class="txt-area clearfix">
+                <textarea id="">여기에는 본문내용이 출력됩니다
+                    여기에는 본문내용이 출력됩니다
+                    여기에는 본문내용이 출력됩니다
+                    여기에는 본문내용이 출력됩니다
+                    여기에는 본문내용이 출력됩니다
+                    여기에는 본문내용이 출력됩니다
+                    여기에는 본문내용이 출력됩니다
+                    여기에는 본문내용이 출력됩니다
+                </textarea>
+                </div>
+                <!--수정 완료버튼-->
+                <div class="button-base">
+                    <button type="submit">수정</button>
+                    <button type="reset">취소</button>
+                </div>
+            </form>
+        </div>
+        <!--footer-->
+        <footer id="footer">
+            <p>Copyright ⓒ2025 김준홍. All right reserved</p>
+        </footer>
+
+    <!--컨테이너 끝-->
+    </div>
+</body>
+</html>

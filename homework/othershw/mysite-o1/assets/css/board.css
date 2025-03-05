@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* board */
+#board #search-box{
+    padding: 20px 0 5px 0;
+}
+#board #search-box #button-box{
+    float: right;
+}
+#board #search-box #button-box input{
+    float: left;
+}
+#board #search-box #button-box button{
+    float: left;
+    margin-left: 5px;
+    padding: 0 10px;
+}
+#board table>thead>tr>th{
+    background-color: #dddddd;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 5px 0;
+}
+#board table>tbody td{
+    border-bottom: 1px solid #c0c0c0;
+    padding: 5px 0;
+    
+}
+#board table>tbody td:not(:nth-child(2)){
+    text-align: center;
+}
+#board #write-box{
+    margin-top: 10px;
+}
+main #post-btn{
+    float: right;
+    padding: 12px 0;
+}
+main #post-btn>a{
+    background-color: #dddddd;
+    border: 1px solid #a8a8a8;
+    border-radius: 4px;
+    box-shadow: 1px;
+    margin-left: 5px;
+    padding: 4px 12px;
+}
+/* board */

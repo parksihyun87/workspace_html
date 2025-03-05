@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> guestbook</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/guestbook.css">
+</head>
+<body>
+    <!--컨테이너 시작-->
+    <div id="wrap">
+
+        <!--Header-->
+        <header id="header" class="clearfix">
+            <!--대제목-->
+            <h1><a href="./index.html">MySite</a></h1>
+
+            <!--로그인 회원가입-->
+            <ul>
+                <li><a href="./login.html">로그인</a></li>
+                <li><a href="./account.html">회원가입</a></li>
+            </ul>
+        </header>
+
+        <!--nav-->
+        <nav id="nav">
+            <ul  class="clearfix">
+                <a href=""><li>입사지원서</li></a>
+                <a href="./list.html"><li>게시판</li></a>
+                <a href="./gallery.html"><li>갤러리</li></a>
+                <a href="./guestbook.html"><li>방명록</li></a>
+            </ul>
+        </nav>
+        <!--content-->
+        <div id="content2" class="clearfix">
+          <!--aside-->
+          <aside>
+            <!--h2정보-->
+            <h2>방명록</h2>
+                
+            <ul>
+              <a href="./guestbook.html"><li>일반방명록</li></a>
+              <a href="#"><li>ajax방명록</li></a>
+            </ul>
+          </aside>
+            <!--main-->
+          <main class="clearfix">
+            <!--h3 정보-->
+            <h3>일반방명록</h3>
+
+            <ol>
+              <li>홈</li>
+              <li>방명록</li>
+              <li>일반방명록</li>
+              </ol>
+          </main>
+          <!--테이블-->
+          <form>
+            <table>
+              <tr>
+                <td class="size-name">이름</td>
+                <td class="size-in"><input type="text" required></td>
+                <td class="size-name">패스워드</td>
+                <td class="size-in"><input type="password" required></td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <textarea id=""></textarea>
+                </td>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <button type="submit">등록</button>
+                </td>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+              </tr>
+            </table>
+          </form>
+        </div>
+        <!--방명록-->
+        <div class="main-guest">
+          <table class="guestbook">
+            <tr>
+              <td class="num">1234</td>
+              <td class="user-name">김준홍</td>
+              <td class="date">2025-03-06 05:11:00</td>
+              <td class="del"><a href="#">삭제</a></td>
+            </tr>
+            <tr>
+              <td colspan="4">방명록 글입니다.방명록 글입니다.</td>
+              <!-- <td></td> -->
+              <!-- <td></td> -->
+              <!-- <td></td> -->
+            </tr>
+          </table>
+        </div>
+        <div class="main-guest2">
+          <table class="guestbook">
+            <tr>
+              <td class="num">5678</td>
+              <td class="user-name">김우진</td>
+              <td class="date">2025-04-22 10:25:00</td>
+              <td class="del"><a href="#">삭제</a></td>
+            </tr>
+            <tr>
+              <td colspan="4">방명록 글입니다.방명록 글입니다.</td>
+              <!-- <td></td> -->
+              <!-- <td></td> -->
+              <!-- <td></td> -->
+            </tr>
+          </table>
+        </div>
+      
+        <!--footer-->
+      <footer id="footer">
+          <p>Copyright ⓒ2025 김준홍. All right reserved</p>
+      </footer>
+    
+    <!--컨테이너 끝-->
+    </div>
+</body>
+</html>

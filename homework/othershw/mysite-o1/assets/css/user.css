@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* user */
+
+#write-form{
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #c0c0c0; 
+    width: 600px;
+    font-size: 14px;
+}
+#write-form>form{
+    width: 320px;
+    margin: 40px auto 0 auto;
+}
+#write-form .form-box{
+    margin-bottom: 20px;
+}
+#write-form .form-box .form-title{
+    display: inline-block;
+    width: 60px;
+    margin-right: 20px;
+    text-align: right;
+}
+#write-form .form-box .bold{
+    font-weight: bold;
+}
+#write-form .form-box input[type="radio"]{
+    margin-right: 10px;
+}
+#write-form #btn-box{
+    margin: 40px 0;
+    text-align: center;
+}
+#write-form #btn-box #user-btn{
+    padding: 5px 20px;
+}
+/* /user */
+

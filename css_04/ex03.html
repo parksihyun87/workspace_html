@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        body{
+            padding: 50px;
+            position: static;
+        }
+        /* 안에서 위를 띄운 의미 */
+
+        .wrap{
+            margin: 0 auto;
+            width: 1000px;
+            border: 1px solid #000;  
+            position: static;              
+        }
+        
+        .box-red{
+            width: 300px;
+            height: 100px;
+            background-color: #f00;
+            position: static;
+        }
+
+        .box-green{
+            width: 150px;
+            height: 400px;
+            background-color: #0f0;
+            position: fixed;
+            /* top: 10px;
+            left: 10px; */
+            top: 50px;
+            /* left: calc((100% - 1000px) / 2 + 1000px); */
+            /* 화면 가변에 따라 계산이 필요함 
+            +-는 띄어쓰기가 필요함*/
+
+        }
+
+        .box-pink{
+            width: 500px;
+            height: 100px;
+            background-color: pink;
+            position: static;
+        }
+
+        .box-scroll{
+            height: 5000px;
+            border: 1px solid #000;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 모든 요소는 position: static 값을 가진다(기본값) -->
+    <div class="wrap">
+        <div class="box-red">빨간상자</div>
+        <hr>
+        <div class="box-green">초록상자</div>
+        <hr>
+        <div class="box-pink">분홍상자</div>
+        <div class="box-scroll">스크롤</div>
+    </div>
+
+</body>
+</html>
